@@ -38,6 +38,10 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'pry'
   gem 'rspec-rails'
+  gem 'launchy'
+  gem 'database_cleaner'
+  gem 'shoulda-matchers'
+  gem 'simplecov'
 end
 
 group :development do
