@@ -7,7 +7,7 @@ describe 'user visits the book index page' do
 
     visit books_path
 
-    expect(pate).to have_content(book1.title)
-    expect(pate).to have_content(book2.title)
+    expect(page).to have_content(book1.title)
+    expect(page).to have_content(book2.title)
   end
 end
